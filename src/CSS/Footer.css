@@ -1,0 +1,26 @@
+.footer{
+    background-image: url('../Assests//bg.jpg');
+}
+
+
+@media (max-width: 375px) {
+    .Logo{
+        position: relative;
+        left: 2rem;
+        width: 130%;
+    }
+}
+@media (max-width: 414px) {
+    .Logo{
+        position: relative;
+        left: 2rem;
+        width: 130%;
+    }
+}
+@media (max-width: 430px) {
+    .Logo{
+        position: relative;
+        left: 2.2rem;
+        width: 130%;
+    }
+}

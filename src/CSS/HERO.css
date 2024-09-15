@@ -1,0 +1,39 @@
+.HeroSection {
+    background-image: url('../Assests/bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  
+  .Image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .HeroWrapper {
+      flex-direction: column;
+      text-align: center;
+    }
+    .ParaAndButts p{
+      position: relative;
+      right: 2rem;
+    }
+  }
+
+  .text-ResMil{
+    display: none;
+    opacity: 0;
+  }
+
+  @media (max-width: 375px) {
+    .HeroSection {
+      width: full;;
+    }
+  }
+  
