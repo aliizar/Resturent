@@ -5,8 +5,8 @@ import Logo from "../Assests/logo.svg";
 import { useSelector } from "react-redux";
 import { RootState } from "../Store/store";
 type UpperNavProps = {
-  isOpen: boolean;
-  toggleMenu: () => void;
+  isOpen?: boolean;
+  toggleMenu?: () => void;
 };
 const UpperNav = ({ isOpen, toggleMenu }: UpperNavProps) => {
   const counter = useSelector((state: RootState) => state.counter.count);

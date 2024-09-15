@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 const CounterLayout = () => {
   return (
     <>
-      <UpperNav/>
+      <UpperNav />
         <Outlet />
       <Footer/>
     </>

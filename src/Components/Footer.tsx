@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from '../Assests/happy_british_awards_blue.png';
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import '../CSS/Footer.css';
